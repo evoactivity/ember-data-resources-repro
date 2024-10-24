@@ -1,0 +1,21 @@
+{
+  "name": "ember-data-resources-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node back/index.js",
+    "front": "cd front && ember serve",
+    "start": "concurrently \"pnpm:server\" \"pnpm:front\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "20.18.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
